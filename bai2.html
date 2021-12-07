@@ -7,13 +7,13 @@
   <title>Document</title>
 </head>
 <script>
-  var sole = 1;
+  let sole = 0 ;
   do{
-    if(sole % 2 ==1){
+    sole++;
+    if(sole % 2 === 1){
       document.write(sole + "</br>");
     }
-    sole++;
-  }while(sole <= 20)
+  }while(sole < 20)
 
 </script>
 <body>
