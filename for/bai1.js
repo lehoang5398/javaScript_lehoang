@@ -1,5 +1,5 @@
-var sum = 0;
+let sum = 0;
 for(i = 0; i <= 20; i++){
   sum = sum + i;
 }
-// consol.log(sum);
+// console.log(sum);
